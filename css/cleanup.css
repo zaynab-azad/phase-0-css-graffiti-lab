@@ -1,1 +1,26 @@
 /* write your override styles here */
+#wall .tag-1 {
+  display: none;
+}
+#wall .parent #tag-4 {
+  background-color: rgba(218, 165, 32, 0.622);
+}
+div#wall #tag-2 + div#tag-3 {
+  background-color: rgba(255, 0, 0, 0.67);
+}
+div#wall .tag-1 + #tag-2 {
+  background-color: rgba(255, 255, 0, 0.483);
+}
+
+body div#wall {
+  position: relative;
+  margin: 40 auto;
+  width: 570px;
+  height: 577px;
+  background: url(../images/wall.jpg) no-repeat center;
+  -moz-box-shadow: 15px 15px 47px lime, -15px -15px 47px aqua;
+  -webkit-box-shadow: 15px 15px 47px lime, -15px -15px 47px cyan;
+  box-shadow: 15px 15px 47px lime, -15px -15px 47px cyan;
+  border: 15px solid white;
+  border-bottom: 60px solid white;
+}
